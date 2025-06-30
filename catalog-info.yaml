@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: integrationprocess
+  name: integration-process
   description: Servicio que expone los controles para ejecutar los procesos de integración con la BDNSAR bajo demanda.
   tags:
     - microservice
@@ -31,7 +31,7 @@ spec:
   type: negocio
   lifecycle: experimental
   owner: group:default/developers
-  subcomponentOf: component:default/integrationprocess
+  subcomponentOf: component:default/integration-process
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
