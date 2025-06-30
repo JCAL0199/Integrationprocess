@@ -31,7 +31,7 @@ spec:
   type: negocio
   lifecycle: experimental
   owner: group:default/developers
-  subcomponentOf: component:default/service-flask
+  subcomponentOf: component:default/integrationprocess
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
